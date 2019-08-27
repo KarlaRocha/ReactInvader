@@ -1,0 +1,23 @@
+{
+  "name": "ReactInvader",
+  "version": "1.0.0",
+  "description": "Space invaders with React, TypeScript and Parcel",
+  "main": "index.js",
+  "repository": "https://github.com/KarlaRocha/ReactInvader.git",
+  "author": "Karla Rocha <karlarochanr@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "parcel-plugin-bundle-visualiser": "^1.2.0",
+    "typescript": "^3.5.3"
+  }
+}
